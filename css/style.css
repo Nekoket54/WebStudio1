@@ -1,0 +1,38 @@
+.bip{
+    color: #2196F3;
+}
+
+.dip{
+    color: #212121;
+}
+
+.kio{
+    color: #757575;
+}
+
+.vit{
+    color: #FFF;
+}
+
+.tik{
+    color: rgba(255, 255, 255, 0.60);
+}
+
+button[data-number = "second"]{
+    background-color: #2196F3;
+}
+section[data-number = "min"]{
+    background-color: #2F303A;
+}
+
+header[data-number = "rit"]{
+    background-color: #FFF;
+}
+
+section[data-number = "pip"]{
+    background-color: #F5F4FA;
+}
+
+footer[data-number = "min"]{
+    background-color: #2F303A;
+}
