@@ -1,3 +1,16 @@
+:root{
+    --Dio:#2196F3;
+    --Neko:#212121;
+    --Nekoket:#757575;
+    --Tero:#FFF;
+    --Jotoro:#2F303A;
+    --JOJO:#F5F4FA;
+    --Spike:rgba(255, 255, 255, 0.60);
+}
+
+
+
+
 .bip{
     color: #2196F3;
 }
