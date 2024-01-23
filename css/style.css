@@ -1,51 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.wiw{
+    font-family: "Roboto";
+}
+
+.rir{
+    font-family: "Raleway";
+}
+
+.lip{
+    font-weight: 900;
+}
+
+.gip{
+    font-weight: 700;
+}
+
+.hig{
+    font-weight: 500;
+}
+
+.ert{
+    font-weight: 400;
+}
+
 :root{
-    --Dio:#2196F3;
-    --Neko:#212121;
-    --Nekoket:#757575;
-    --Tero:#FFF;
-    --Jotoro:#2F303A;
-    --JOJO:#F5F4FA;
-    --Spike:rgba(255, 255, 255, 0.60);
+    --bip:#2196F3;
+    --dip:#212121;
+    --kio:#757575;
+    --vit:#FFF;
+    --min:#2F303A;
+    --pip:#F5F4FA;
+    --tik:rgba(255, 255, 255, 0.60);
 }
 
 
 
 
 .bip{
-    color: #2196F3;
+    color: var(--bip);
 }
 
 .dip{
-    color: #212121;
+    color: var(--dip);
 }
 
 .kio{
-    color: #757575;
+    color: var(--kio);
 }
 
 .vit{
-    color: #FFF;
+    color: var(--vit);
 }
 
 .tik{
-    color: rgba(255, 255, 255, 0.60);
+    color: var(--tik);
 }
 
 button[data-number = "second"]{
-    background-color: #2196F3;
+    background-color: var(--bip);
 }
 section[data-number = "min"]{
-    background-color: #2F303A;
+    background-color: var(--min);
 }
 
 header[data-number = "rit"]{
-    background-color: #FFF;
+    background-color: var(--vit);
 }
 
 section[data-number = "pip"]{
-    background-color: #F5F4FA;
+    background-color: var(--pip);
 }
 
 footer[data-number = "min"]{
-    background-color: #2F303A;
+    background-color: var(--min);
 }
