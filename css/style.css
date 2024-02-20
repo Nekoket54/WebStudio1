@@ -20,43 +20,34 @@ body{
 
 .logo{
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.78px;
 }
 
 .header-link{
     color: var(--section2-title);
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.28px;
 }
 
 .header-email{
     color: var(--button);
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.28px;
 }
 
 .header-number{
     color: var(--header-number);
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.28px;
 }
 
 .section1-title{
     color: var(--section1-title);
     font-size: 44px;
-    font-style: normal;
     font-weight: 900;
     line-height: 60px;
     letter-spacing: 2.64px;
@@ -66,7 +57,6 @@ body{
 button{
     color: var(--section1-title);
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.96px;
@@ -75,9 +65,7 @@ button{
 .section2-name{
     color: var(--section2-title);
     font-size: 14px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
@@ -85,7 +73,6 @@ button{
 .section2-text{
     color: var(--header-number);
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
@@ -94,43 +81,34 @@ button{
 .section2-title{
     color: var(--section2-title);
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 1.08px;
 }
 
 .section3-title{
     color: var(--section2-title);
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 1.08px;
 }
 
 .section3-name{
     color: var(--section2-title);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.48px;
 }
 
 .section3-text{
     color: var(--header-number);
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     letter-spacing: 0.48px;
 }
 
 .footer-address{
     color: var(--section1-title);
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
@@ -139,7 +117,6 @@ button{
 .footer-email{
     color: var(--footer-email);
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
@@ -148,7 +125,6 @@ button{
 .footer-number{
     color: var(--footer-email);
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
