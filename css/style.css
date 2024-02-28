@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-:root{
-    --button:#2196F3;
-    --section2-title:#212121;
-    --header-number:#757575;
-    --footer:#2F303A;
-    --section3:#F5F4FA;
-    --section1-title:#FFF;
-    --footer-email:rgba(255, 255, 255, 0.60);
+:root {
+    --button: #2196F3;
+    --section2-title: #212121;
+    --header-number: #757575;
+    --footer: #2F303A;
+    --section3: #F5F4FA;
+    --section1-title: #FFF;
+    --footer-email: rgba(255, 255, 255, 0.60);
 }
 
-body{
+body {
     font-family: "Roboto";
 }
 
-.logo{
+.logo {
     font-family: "Raleway";
 }
 
-.logo{
+.logo {
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.78px;
     text-decoration: none;
 }
 
-.header-link{
+.header-link {
     color: var(--section2-title);
     font-size: 14px;
     font-weight: 500;
@@ -33,7 +33,7 @@ body{
     text-decoration: none;
 }
 
-.header-email{
+.header-email {
     color: var(--button);
     font-size: 14px;
     font-weight: 500;
@@ -41,14 +41,14 @@ body{
     text-decoration: none;
 }
 
-.header-number{
+.header-number {
     color: var(--header-number);
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
 }
 
-.section1-title{
+.section1-title {
     color: var(--section1-title);
     font-size: 44px;
     font-weight: 900;
@@ -57,7 +57,7 @@ body{
     text-transform: uppercase;
 }
 
-button{
+button {
     color: var(--section1-title);
     font-size: 16px;
     font-weight: 700;
@@ -65,7 +65,7 @@ button{
     letter-spacing: 0.96px;
 }
 
-.section2-name{
+.section2-name {
     color: var(--section2-title);
     font-size: 14px;
     font-weight: 700;
@@ -73,7 +73,7 @@ button{
     text-transform: uppercase;
 }
 
-.section2-text{
+.section2-text {
     color: var(--header-number);
     font-size: 14px;
     font-weight: 400;
@@ -81,35 +81,35 @@ button{
     letter-spacing: 0.42px;
 }
 
-.section2-title{
+.section2-title {
     color: var(--section2-title);
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.08px;
 }
 
-.section3-title{
+.section3-title {
     color: var(--section2-title);
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.08px;
 }
 
-.section3-name{
+.section3-name {
     color: var(--section2-title);
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.48px;
 }
 
-.section3-text{
+.section3-text {
     color: var(--header-number);
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.48px;
 }
 
-.footer-address{
+.footer-address {
     color: var(--section1-title);
     font-size: 14px;
     font-weight: 400;
@@ -117,7 +117,7 @@ button{
     letter-spacing: 0.42px;
 }
 
-.footer-email{
+.footer-email {
     color: var(--footer-email);
     font-size: 14px;
     font-weight: 400;
@@ -125,7 +125,7 @@ button{
     letter-spacing: 0.42px;
 }
 
-.footer-number{
+.footer-number {
     color: var(--footer-email);
     font-size: 14px;
     font-weight: 400;
@@ -133,32 +133,32 @@ button{
     letter-spacing: 0.42px;
 }
 
-header{
+header {
     background-color: var(--section1-title);
 }
 
-button{
+button {
     background-color: var(--button);
 }
 
-.section1{
+.section1 {
     background-color: var(--footer);
 }
 
-.section2{
+.section2 {
     background-color: var(--section1-title);
 }
 
-.section3{
+.section3 {
     background-color: var(--section3);
 }
 
-footer{
+footer {
     background-color: var(--footer);
 }
 
 
-header{
+header {
     width: 1600px;
     height: 80px;
     display: flex;
@@ -167,11 +167,11 @@ header{
 
 }
 
-header .logo{
+header .logo {
     margin-left: 215px;
 }
 
-.header-list{
+.header-list {
     display: flex;
     width: 281px;
     height: 16px;
@@ -180,34 +180,36 @@ header .logo{
     margin-right: 344px;
 }
 
-.header-number{
+.header-number {
     margin-left: 50px;
     margin-right: 215px;
 }
 
 
-.section1{
-    width: 1600px;
+.section1 {
     height: 600px;
     padding-top: 200px;
 }
-    button{
+
+button {
     padding: 10px 35px;
-    margin-top: 30px;
-    margin-left: 692px;
     display: flex;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: none;
 }
 
-.section1-title{
+.section1-title {
     display: flex;
     margin: 0 auto;
     width: 696px;
     height: 120px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 
-.main-div{
+.main-div {
     display: flex;
     width: 1170px;
     margin: 0 auto;
@@ -217,11 +219,11 @@ header .logo{
     margin-top: 50px;
 }
 
-.section2-title{
+.section2-title {
     text-align: center;
 }
 
-.section2-list{
+.section2-list {
     display: flex;
     width: 1170px;
     margin: 0 auto;
@@ -230,54 +232,62 @@ header .logo{
     margin-bottom: 94px;
 }
 
-.section2-list .section2-item{
+.section2-list .section2-item {
     width: 270px;
 }
 
-.section3{
+.section2-name {
+    margin-bottom: 10px;
+}
+
+.section3 {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.section3-list{
+.section3-list {
     display: flex;
     width: 1170px;
     margin: 0 auto;
     justify-content: space-between;
 }
 
-.section3-list li{
+.section3-list li {
     width: 270px;
     background-color: var(--section3);
     height: 368px;
 }
 
-.section3-list h6{
+.section3-list h6 {
     padding-top: 30px;
     text-align: center;
 }
 
-.section3-list p{
+.section3-list p {
     padding-top: 10px;
     text-align: center;
 }
 
-.section3-title{
+.section3-title {
     text-align: center;
+    margin-bottom: 50px;
 }
 
-footer{
-    width: 1600px;
+footer {
     height: 252px;
     padding-top: 60px;
-    padding-left: 215px;
 }
 
-.footer-list{
+.footer-list {
     display: flex;
     width: 231px;
     height: 81px;
     margin-top: 20px;
     align-content: space-between;
     flex-wrap: wrap;
+}
+
+.footer-div {
+    width: 1170px;
+    margin: 0 auto;
 }
