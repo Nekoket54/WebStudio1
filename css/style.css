@@ -291,3 +291,15 @@ footer {
     width: 1170px;
     margin: 0 auto;
 }
+
+.header-span{
+    color: var(--button);
+}
+
+.header-span-black{
+    color: var(--section2-title);
+}
+
+.header-span-white{
+    color: var(--section1-title);
+}
