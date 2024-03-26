@@ -303,3 +303,55 @@ footer {
 .header-span-white{
     color: var(--section1-title);
 }
+
+.section2-item:nth-child(-n+2)::before{
+    content: "";
+    display: inline-block;
+    background-image: url("../img/Vector.png");
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-right: 270px;
+    margin-bottom: 30px;
+    background-position: center;
+}
+
+.section2-item:first-child::before{
+    content: "";
+    display: inline-block;
+    background-image: url("../img/Group.png");
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-right: 270px;
+    margin-bottom: 30px;
+    background-position: center;
+}
+
+.section2-item:nth-child(3)::before{
+    content: "";
+    display: inline-block;
+    background-image: url("../img/Vector\ \(1\).png");
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-right: 270px;
+    margin-bottom: 30px;
+    background-position: center;
+}
+
+.section2-item:last-child::before{
+    content: "";
+    display: inline-block;
+    background-image: url("../img/Group\ \(1\).png");
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-right: 270px;
+    margin-bottom: 30px;
+    background-position: center;
+}
