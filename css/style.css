@@ -33,6 +33,16 @@ body {
     text-decoration: none;
 }
 
+.header-link:focus{
+    color: var(--button);
+    border-bottom: 3px solid var(--button);
+    border-width: 4px;
+    border-radius: 2px;
+    padding-bottom: 27px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .header-email {
     display: flex;
     width: 161px;
@@ -42,6 +52,12 @@ body {
     letter-spacing: 0.28px;
     text-decoration: none;
     justify-content: flex-end;
+}
+
+.header-email:hover{
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--button);
 }
 
 .header-email::before{
@@ -63,6 +79,12 @@ body {
     font-weight: 500;
     letter-spacing: 0.28px;
     justify-content: flex-end;
+}
+
+.header-number:hover{
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--button);
 }
 
 .header-number::before{
@@ -201,10 +223,12 @@ header .logo {
 .header-list {
     display: flex;
     width: 281px;
-    height: 16px;
+    height: 48px;
     justify-content: space-between;
     margin-left: 93px;
     margin-right: 344px;
+    margin-top: 32px;
+    padding-bottom: 32p;
 }
 
 .header-number {
@@ -484,5 +508,39 @@ footer {
 }
 
 .header-link:hover{
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--button);
+}
+
+
+.icon-footer:hover .hover-b{
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--button);
+    fill-opacity: 1;
+}
+
+.icon-section4:hover path{
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--button);
+}
+
+.icon-section4:hover rect{
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    stroke: var(--button);
+}
+
+.icon-section3:hover path{
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--section1-title);
+}
+
+.icon-section3:hover .background{
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--button);
 }
